@@ -1,4 +1,5 @@
 Project set-up
+
      cmnd:  django-admin startproject 'project name'
 
     Adding apps for bookings and customers
@@ -58,6 +59,14 @@ Wireframes for project mock-up
 ![wireframe-mobile](static/images/mobile-wireframe-min.jpg)
 ![wireframe-desktop](static/images/desktop-wireframe-min.jpg)
 
+Logic
+
+Booking logic Flowchart
+![booking-logic-flowchart](static/images/booking-logic-flowchart.jpg)
+
+Plans for Models
+![model-plans](static/images/model-plans.jpg)
+
 Credits
-Allauth set-up
-https://django-allauth.readthedocs.io/en/latest/installation.html
+
+Allauth set-up: https://django-allauth.readthedocs.io/en/latest/installation.html
