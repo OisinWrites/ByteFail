@@ -80,6 +80,10 @@ Testing and Errors
         issue: Terminal prints: can't open file 'manage.py': [Errno 2] No such file or directory
         resolve: Correct capitalised occurrances of project name to lowercase to fit convention. Lifted project up a directory, rather than the folder of itself it was sat, bringing manage.py to the top level directory also.
 
+        2
+        issue: Created superuser and attempted to login from admin panel. Error given: CSRF verification failed. Request aborted.
+        resolve:
+
 Credits
 
 Allauth set-up: https://django-allauth.readthedocs.io/en/latest/installation.html

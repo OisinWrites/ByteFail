@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Byte_Restaurant_Bookings.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'byte_restaurant_bookings.settings')
 
 application = get_asgi_application()
