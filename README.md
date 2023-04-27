@@ -45,6 +45,18 @@ Project set-up
     To copy and paste folders and files from allauth site-packages first determine python version installed using cmnd: python --version In this case python3 3.8
     Create a folder, templates, and subfolder, allauth, from the project level directory
     Then run cmnd: cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth/
+    Delete openid and tests folders, as unneeded for this project, deleting will revert use to site_packages templates for same.
+
+UX/UI
+
+Example sites for restaurant home pages
+![example-site-mobile](static/images/model-site-mobile-min.jpg)
+![example-site-midscreen-1](static/images/model-site-midscreen-min.jpg)
+![example-site-midscreen-2](static/images/model-site-midscreen2-min.jpg)
+![example-site-desktop](static/images/model-site-desktop-min.jpg)
+Wireframes for project mock-up
+![wireframe-mobile](static/images/mobile-wireframe-min.jpg)
+![wireframe-desktop](static/images/desktop-wireframe-min.jpg)
 
 Credits
 Allauth set-up
