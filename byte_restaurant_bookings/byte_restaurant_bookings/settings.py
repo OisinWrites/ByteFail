@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o58hx#1q31_f1j64bmj7s#m$mi*w9rufn%cqhujxtnvh@y6!ym'
+SECRET_KEY = 'django-insecure\
+    -o58hx#1q31_f1j64bmj7s#m$mi*w9rufn%cqhujxtnvh@y6!ym'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -60,15 +61,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Byte_Restaurant_Bookings.urls'
 
-AUTHENTICATION_BACKENDS = [
-    ...
+AUTHENTICATION_BACKENDS = (
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
 
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
-    ...
-]
+)
 
 TEMPLATES = [
     {
@@ -107,16 +106,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_\
+            validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_\
+            validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_\
+            validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_\
+            validation.NumericPasswordValidator',
     },
 ]
 
