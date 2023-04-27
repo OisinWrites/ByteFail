@@ -1,6 +1,6 @@
 Project set-up
 
-     cmnd:  django-admin startproject 'project name'
+     cmnd:  django-admin startproject 'project name'.
 
     Adding apps for bookings and customers
         cmnd:   django-admin startapp 'app name'
@@ -39,6 +39,11 @@ Project set-up
                     urlpatterns = [
                         path('accounts/', include('allauth.urls')),
                     ]
+
+        In .gitignore add
+                    *.sqlite3
+                    *.pyc
+                    __pycache__
 
     cmnd: pip3 freeze > requirements.txt 
     to create a file for installed apps that can be summoned for local environment using cmnd: pip3 install -r requirements.txt
