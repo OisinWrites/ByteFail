@@ -78,6 +78,7 @@ Testing and Errors
 
         1
         issue: Terminal prints: can't open file 'manage.py': [Errno 2] No such file or directory
+        resolve: Correct capitalised occurrances of project name to lowercase to fit convention. Lifted project up a directory, rather than the folder of itself it was sat, bringing manage.py to the top level directory also.
 
 Credits
 
