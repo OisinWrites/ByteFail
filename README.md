@@ -67,6 +67,13 @@ Booking logic Flowchart
 Plans for Models
 ![model-plans](static/images/model-plans.jpg)
 
+Testing and Errors
+
+    Errors
+
+        1
+        issue: Terminal prints: can't open file 'manage.py': [Errno 2] No such file or directory
+
 Credits
 
 Allauth set-up: https://django-allauth.readthedocs.io/en/latest/installation.html
